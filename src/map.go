@@ -11,11 +11,11 @@ import (
 func TwoNumberSum(array []int, target int) []int {
 	// Declaring a new map
 	nums := map[int]bool{}
-
+	// Traversing the array, retrieving index and int value
 	for index, num := range array {
 		fmt.Println(index)
 		potentialMatch := target - num
-		//Assesing the map,getting the key, validating and returning when found->true
+		//Asking the hash table for a value, retrieving a boolean and returning when found equal true
 		if key, found := nums[potentialMatch]; found {
 			fmt.Println(key)
 			return []int{potentialMatch, num}
