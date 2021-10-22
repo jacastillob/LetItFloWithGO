@@ -2,7 +2,7 @@
 
 A project to start compiling various algorithms by using Go
 
-Within the src folder files will relate to the to the topics reviewed so far:
+Within the src folder files will relate to the  the topics reviewed so far:
 
 ## Topics 
 
